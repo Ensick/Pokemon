@@ -1,0 +1,11 @@
+
+<div class="d-flex bg-color-home">
+    <div class="col-md-8 col-sm-12 d-flex align-items-center justify-content-center">
+        <app-pokemon-detail *ngIf="pokemon" [pokemon]="pokemon"></app-pokemon-detail>
+        <app-pokemon-welcome *ngIf="!pokemon"></app-pokemon-welcome>
+    </div>
+    <div class="col-md-4 col-sm-12">
+        <app-pokemon-list (emitPokemon)="savePokemon($event)"></app-pokemon-list>
+    </div>
+</div>
+

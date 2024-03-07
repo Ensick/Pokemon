@@ -1,0 +1,8 @@
+.bg-color-home{
+    background: rgb(121,9,9);
+    background: linear-gradient(158deg, rgba(121,9,9,1) 46%, rgba(0,33,36,1) 46%);
+}
+
+.vh-95{
+    height: 95vh;
+}

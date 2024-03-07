@@ -1,0 +1,39 @@
+
+.pokemon-list-cont{
+    overflow-y: auto;
+    height: 100%;
+}
+
+
+.card-style{
+    background-color: rgb(224, 222, 222);
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+
+.card-style:hover{
+    background: rgb(121,9,9);
+    background: linear-gradient(158deg, rgba(121,9,9,1) 46%, rgba(0,33,36,1) 46%);
+    color: white;
+}
+
+.active{
+    background: rgb(121,9,9);
+    background: linear-gradient(158deg, rgba(121,9,9,1) 46%, rgba(0,33,36,1) 46%);
+    color: white;
+}
+
+.scrollbarbody{
+    padding-top: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.p-absol{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
